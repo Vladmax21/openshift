@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", Arial, Sans-serif;
+	font-size: 16px;
+}
+
+
+header img{
+	width: 50px;
+
+}
+
+.contenedor {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+
+	overflow: hidden;
+
+}
+
+.contenedor img{
+	width: 300px;
+	display:block;
+	margin:auto;
+}
+
+.contenedor .color_boton{
+	background: #9B1D27;
+	color: #fff;
+	font-weight: 500;
+}
+
+.contenedor .card .card-body .texto_titulo{
+	text-align: center;
+}
+
+.contenedor .precio{
+	font-size: 24px;
+}
+
+/* ----- ----- MEDIA QUERIES ----- ----- */
+@media screen and (max-width: 800px) {
+.contenedor .card .card-body .texto_listado{
+	font-size: 12px;
+}
+.contenedor .card .card-body .texto_titulo{
+	font-size: 14px;
+}
+
+.contenedor .card .card-body .textos{
+	font-size: 12px;
+}
+
+select option{
+	font-size: 12px;
+}
+}
+
+@media screen and (max-width: 400px) {
+	.contenedor .card .card-body .texto_listado{
+	font-size: 11px;
+}
+.contenedor .card .card-body .texto_titulo{
+	font-size: 12px;
+}
+.contenedor .card .card-body .textos{
+	font-size: 11px;
+}
+select option{
+	font-size: 11px;
+}
+}
+
